@@ -4,7 +4,7 @@ class AppImages{
   static const img3 = "assets/images/img3.jpg";
   static const img4 = "assets/images/img4.jpg";
   static const img5 = "assets/images/img5.jpg";
-  static const img6 = "assets/images/img6.jpg";
+  static const img6 = "assets/images/img5.jpg";
   static const img7 = "assets/images/img7.jpg";
   static const img8 = "assets/images/img8.jpg";
   static const img9 = "assets/images/img9.jpg";
@@ -21,5 +21,17 @@ class AppImages{
   static const img20 = "assets/images/img20.jpg";
   static const img21 = "assets/images/img21.jpg";
   static const img22 = "assets/images/img22.jpg";
+}
 
+class StoreImage{
+  static const Storeimg1 = "assets/images/Store1.jpg";
+  static const Storeimg2 = "assets/images/Store2.jpg";
+  static const Storeimg3 = "assets/images/Store3.jpg";
+  static const Storeimg4 = "assets/images/Store4.jpg";
+  static const Storeimg5 = "assets/images/Store5.jpg";
+  static const Storeimg6 = "assets/images/Store6.jpg";
+  static const Storeimg7 = "assets/images/Store7.jpg";
+  static const Storeimg8 = "assets/images/Store8.jpg";
+  static const Storeimg9 = "assets/images/Store9.jpg";
+  static const Storeimg10 = "assets/images/Store10.jpg";
 }

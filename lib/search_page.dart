@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/Catalog/abercrombie.dart';
 import 'package:test_project/Catalog/absolument_parfumer_page.dart';
-import 'package:test_project/Database/todo_screen.dart';
+import 'package:test_project/Database/db_tools.dart';
 import 'package:test_project/stocks_page.dart';
 
 class SearchPage extends StatefulWidget {
@@ -20,7 +20,7 @@ class _SearchPageState extends State<SearchPage> {
             child: ListTile(
               title: Text('Каталог парфюмерии',
                 style: TextStyle(
-                  color: Color.fromARGB(255, 68, 68, 69),
+                  color: Color.fromARGB(255, 107, 0, 218),
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                 ),
@@ -32,7 +32,7 @@ class _SearchPageState extends State<SearchPage> {
           height: 60,
           width: 260,
           decoration: BoxDecoration(
-            color: Color.fromARGB(255, 68, 68, 69),
+            color: Color.fromARGB(255, 107, 0, 218),
             borderRadius: BorderRadius.circular(5),
           ),
           child: Stack(
@@ -60,7 +60,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -88,7 +88,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -104,7 +104,7 @@ class _SearchPageState extends State<SearchPage> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> TodoScreen()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> StockPage()));
                   },
                 )
               ],
@@ -116,7 +116,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -144,7 +144,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -172,7 +172,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -200,7 +200,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -228,7 +228,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -256,7 +256,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -284,7 +284,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -312,7 +312,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -340,7 +340,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -368,7 +368,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(
@@ -396,7 +396,7 @@ class _SearchPageState extends State<SearchPage> {
             height: 60,
             width: 260,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 68, 68, 69),
+              color: Color.fromARGB(255, 107, 0, 218),
               borderRadius: BorderRadius.circular(5),
             ),
             child: Stack(

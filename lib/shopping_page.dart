@@ -12,11 +12,9 @@ class _ShoppingPageState extends State<ShoppingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: [
+      body: Container(
 
-        ],
-      ),
+      )
     );
   }
 }

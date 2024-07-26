@@ -11,9 +11,14 @@ class _StockPageState extends State<StockPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: Container(
+        height: double.infinity,
+        width: 400,
+        child: Column(
+          children: [
 
+          ],
+        ),
       ),
     );
   }

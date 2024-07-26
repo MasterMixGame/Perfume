@@ -19,14 +19,19 @@ class _SplashPageState extends State<SplashPage> {
     return Scaffold(
       body: Center(
         child: Container(
-          height: 800,
+          height: double.infinity,
           width: 400,
-          child: PageView(
-            scrollDirection: Axis.vertical,
-            children: [
-              PageViewWidget(image: AppImages.img1),
-            ],
-          ),
+            color: Color.fromARGB(255, 107, 0, 218),
+         child: Center(
+           child: Text(
+               'Parfumeria',
+             style: TextStyle(
+               color: Color.fromARGB(255, 250, 250, 250),
+               fontSize: 40,
+               fontFamily: 'Dopestyle',
+             ),
+           ),
+         )
         ),
       ),
     );

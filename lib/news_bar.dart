@@ -16,7 +16,7 @@ class _NewBarState extends State<NewBar> {
           ListTile(
             title: Text('Новости парфюмерии',
               style: TextStyle(
-                color: Colors.red,
+                color: Color.fromARGB(255, 107, 0, 218),
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
